@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Solutions Catalog
 
-## Getting Started
+Вебзастосунок для перегляду та пошуку каталогу рішень у сфері штучного інтелекту.
 
-First, run the development server:
+## Запуск проєкту
+
+### 1. Встановлення залежностей
+
+```bash
+npm install
+```
+
+### 2. Запуск у режимі розробки
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Після запуску застосунок буде доступний за локальною адресою, яку покаже термінал.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Реалізовано
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Каталог AI-рішень
+* Перегляд доступних рішень
+* Інтерфейс для роботи з каталогом
+* Пошук та ознайомлення з доступними AI-рішеннями
 
-## Learn More
+## Що не встигли реалізувати
 
-To learn more about Next.js, take a look at the following resources:
+Через обмеження часу не було завершено:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* оптимізацію та покращення структури файлів і компонентів;
+* функціонал збережених добірок;
+* функціонал додавання рішень до вибраного.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Подальший розвиток
 
-## Deploy on Vercel
+У наступних ітераціях планується реалізувати:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* **Збережені добірки** — можливість створювати та зберігати власні колекції AI-рішень;
+* **Вибране** — можливість додавати окремі рішення до списку обраного;
+* **Сторінку порівняння** — можливість порівнювати декілька AI-рішень за основними характеристиками;
+* **Покращення структури проєкту** — подальша декомпозиція компонентів та оптимізація організації файлів.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
